@@ -16,8 +16,9 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_manuscript-src.svg').default,
     description: (
       <>
+        <code>index.md.ejs</code><br />
         Keep one manuscript for all formats!<br />
-        Written in <a href="https://ejs.co/" target="_build">Markdown</a>.<br /> Wrapped in <a href="https://ejs.co/" target="_build">EJS (Embedded Javascript Syntax)</a>.
+        Written in <a href="https://ejs.co/" target="_build">Markdown</a>, wrapped in <a href="https://ejs.co/" target="_build">EJS</a>.
       </>
     ),
   },
@@ -26,6 +27,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_pipeline.svg').default,
     description: (
       <>
+        <code>buildPipelines:</code><br />
         Build any format you want by stacking stages together into different build pipelines.
       </>
     ),
@@ -35,6 +37,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_stages-pipe.svg').default,
     description: (
       <>
+      <code>stages:</code><br />
         Transform your manuscript any way you like by creating your own custom stage.
       </>
     ),
@@ -44,6 +47,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_data-processing_dev-mode-2.svg').default,
     description: (
       <>
+      <code>bookpub dev pdf</code><br />
         View the final pipeline result in real time (via browser) as you edit your manuscript.
       </>
     ),
@@ -53,6 +57,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_customize.svg').default,
     description: (
       <>
+      <code>book.config.yml</code><br />
          Use <a href="https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started" target="_blank">YAML</a> to define global, pipeline, or stage based meta and configurations.
       </>
     ),
@@ -62,6 +67,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_new-project.svg').default,
     description: (
       <>
+      <code>bookpub new my-book</code><br />
         Spin up a new bookpub project with a single command that includes all the boilerplate.
       </>
     ),
